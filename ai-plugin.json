@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Image Generator",
+  "name_for_model": "imagegenerator",
+  "description_for_human": "Plugin for generating images.",
+  "description_for_model": "Plugin for generating images by converting image descriptions to base64 and formatting this in markdown.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://chatgpt-image-generator.thijsl.repl.co/logo.png",
+  "contact_email": "lowette@gmail.com",
+  "legal_info_url": "https://github.com/thijsl"
+}
