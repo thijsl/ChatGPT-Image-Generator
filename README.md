@@ -1,3 +1,18 @@
+# Concept
+
+The following two statements are true:
+
+1. ChatGPT can render markdown (images)
+2. Markdown images can be represented by base64 encoded data
+
+The following statement seems true:
+
+1. When your single ChatGPT Plugin API endpoint returns a hardcoded markdown image of a yellow circle represented by base64 encoded data, ChatGPT knows how to alter this response to respect your request.
+
+# Limitations
+
+* It can only generate simple shapes. ChatGPT refuses to collaborate on more complex requests.
+
 # Learning process
 
 # 1
@@ -78,3 +93,4 @@ Finally figured out that my original was the best one, but that a clean re-insta
   ```
   
 Conclusion (?): never trust relaunching your server. If you want to know whether the behavior stays the same, reinstall your plugin. It seems that the plugin remembered my initial response.
+
